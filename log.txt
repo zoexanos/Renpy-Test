@@ -1,21 +1,21 @@
-Sat Jul 24 00:59:38 2021
+Sat Jul 24 01:04:47 2021
 Darwin-20.3.0-x86_64-i386-64bit
 Ren'Py 7.4.6.1693
  
 
-Bootstrap to the start of init.init took 0.13s
+Bootstrap to the start of init.init took 0.11s
 Early init took 0.01s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.15s
-Loading save slot metadata. took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.03s
+Loading script took 0.32s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
+Running init code took 0.10s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
@@ -23,10 +23,33 @@ DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.04s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.42s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Inc.'
+Renderer: 'Intel(R) HD Graphics 6000'
+Version: '2.1 INTEL-16.1.12'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+Total time until interface ready: 1.6913151741s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
